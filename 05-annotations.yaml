@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: annotations
+  labels:
+    name: roboshop
+    environement: dev
+    component: mysql
+    tier: backend
+annotations:
+  description: "this is for annotations"
+  jenkins: "https://jenkins.com/build/jenkins.zip"
+spec:
+  containers:
+  - name: nginx
+    image: nginx
