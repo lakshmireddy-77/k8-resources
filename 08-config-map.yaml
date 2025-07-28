@@ -3,8 +3,8 @@ kind: ConfigMap
 metadata:
   name: pod-config
   labels:
-  purpose: config
-  env: dev
+    purpose: config
+    env: dev
 data:
   course: "devops with aws"
   duration: "120hr"
