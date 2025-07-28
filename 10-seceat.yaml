@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Secret
+metadata:
+  name: pod-secret
+  lables:
+    purpose: secret
+    env: dev
+type: Opaque
+data:
+  username: "ji967=ju"
+  password: "p09-jj=mk"
