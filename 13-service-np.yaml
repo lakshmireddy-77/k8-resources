@@ -5,7 +5,8 @@ metadata:
   labels:
     purpose: service-np-demo
 spec:
-  selector:
+  type: NodePort
+  selector: 
     purpose: service-np-demo
     project: roboshop
     env: dev
